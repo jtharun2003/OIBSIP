@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Tharun portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c0896b5aed.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.jpeg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web developer</p>
+          <h1>
+            Hi,i'm<span> Tharun</span><br />
+            from india
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-------------about-------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/tharun.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+              They also process flows or sitemaps.They'll then use their
+              creativity while applying color palettes based on what best fits
+              into a particular design conceptually.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />designing web/app interfaces</li>
+                <li><span>web development</span><br />web app interfaces</li>
+                <li>
+                  <span>app development</span><br />building andriod/iOS apps
+                  interfaces
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>2021-current</span><br />UI/UX design training at ET
+                  institute
+                </li>
+                <li><span>2019-2021</span><br />team lead at starapp LLC.</li>
+                <li>
+                  <span>2018-2019</span><br />Internship at ekart ecommerce
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>2018</span><br />school Education</li>
+                <li><span>2020</span><br />intermediate Education</li>
+                <li><span>2022</span><br />pursuing B-tech</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------services-------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>web design</h2>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX design</h2>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>app design</h2>
+            <p>
+              UI UX designers create the user interface for an app, website, or
+              other interactive media. Their work includes collaborating with
+              product managers and engineers to gather requirements from users
+              before designing ideas that can be communicated using storyboards.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------portfolio------------->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Social media app</h3>
+              <p>
+                the app connects you to the talented people in the world.
+                download from playstore.
+              </p>
+              <a href="#">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Music app</h3>
+              <p>
+                the app connects you to the talented people in the world.
+                download from playstore.
+              </p>
+              <a href="#">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Online shopping app</h3>
+              <p>
+                the app connects you to the talented people in the world.
+                download from playstore.
+              </p>
+              <a href="#">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn"> See more </a>
+      </div>
+    </div>
+    <!--------------contact------->
+
+    <div id="Contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-envelope-circle-check"></i
+              >contact@example.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>0123456789</p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                requied
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright by tharun<i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

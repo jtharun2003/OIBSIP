@@ -1,0 +1,75 @@
+*{
+    box-sizing:border-box ;
+    margin: 0px 0px;
+}
+body{
+    background-color: rgb(241, 237, 230);
+}
+h1{
+    margin: 0px 0px;
+    color:aliceblue;
+}
+#land{
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 300px;
+    padding-bottom: 100px;
+    background-image: url(./images/backimage.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#menu{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+input{
+    max-width: fit-content;
+    padding: 3px 3px;
+    font-size: small;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    margin: 5px;
+    margin-left: 0px;
+}
+input:hover{
+    background-color: yellowgreen;
+}
+#land p{
+    color: whitesmoke;
+}
+h2{
+    text-align: center;
+    margin:10px;
+}
+#imag{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-gap:10px;
+}
+#imag p{
+    display: flex;
+    font-size: medium;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+img{
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 5px;
+}
+#contact p{
+    text-align: center;
+}
+#contact{
+    padding: 5px 5px;
+    margin: 5px;
+}
